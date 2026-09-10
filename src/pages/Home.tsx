@@ -54,12 +54,12 @@ button>)}<small>{progress}% complete</small></aside>
 <main>
   <p className="eyebrow">FOUNDATION TRACK</p>
   <h1>Keep learning when the network leaves.</h1>
+   <h2><strong>Name:</strong> Akintunde Fawaz</h2>
+  <h2><strong>Matric No.:</strong>2024/1/97877ET</h2>
   <p className="lede">
     Save a note, refresh the page, then test the same experience with the
     network turned off.
   </p>
-  <p><strong>Name:</strong> Akintunde Fawaz</p>
-  <p><strong>Matric No.:</strong>2024/1/97877ET</p>
 <section className="columns"><div><h2>Notes from the lab</
 h2>{notes.map((note) => <article key={note.id}><h3>{note.title}</h3><p>{note.body}
 </p><small>{note.updated}</small></article>)}</div>
