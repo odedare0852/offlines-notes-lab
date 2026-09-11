@@ -3,6 +3,6 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/offline-notes-lab/',
+  base: '/offlines-notes-lab/',
   plugins: [react()],
 })
